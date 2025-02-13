@@ -61,6 +61,11 @@ public class Main {
                                 "Ваш налог составит: " + tax +
                                 "\nНалог на другой системе: " + tax2 +
                                 "\nЭкономия: " + taxDifference(tax, tax2));
+                    } else if (tax == tax2) {
+                        System.out.println("Можете выбрать любую систему налогообложения\n" +
+                                "Ваш налог составит: " + tax);
+
+
                     } else {
                         System.out.println("Мы советуем вам УСН доходы\n" +
                                 "Ваш налог составит: " + tax2 +
